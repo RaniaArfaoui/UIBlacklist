@@ -1,0 +1,39 @@
+<div class="parameters-container">
+    <div class="header">
+      <!-- Navigation goes here -->
+    </div>
+    
+    <div class="parameter-tabs">
+      <!-- Parameter tabs go here -->
+    </div>
+    
+    <div class="parameter-fields">
+      <div class="min-blockage">
+        <label>Taux Min de Blocage</label>
+        <input type="text" placeholder="%">
+      </div>
+      <div class="min-acceptance">
+        <label>Taux Min d'acceptation</label>
+        <input type="text" placeholder="%">
+      </div>
+      <div class="max-blockage">
+        <label>Taux Max de Blocage</label>
+        <input type="text" placeholder="%">
+      </div>
+      <div class="max-acceptance">
+        <label>Taux Max d'acceptation</label>
+        <input type="text" placeholder="%">
+      </div>
+    </div>
+    
+    <div class="conclusion">
+      <label>Conclusion</label>
+      <textarea></textarea>
+    </div>
+  </div>
+  
+  <div class="parameter-tabs">
+    <div (click)="setActiveTab(1)" [class.active]="activeTab === 1">Paramètre 1</div>
+    <!-- Repeat for other tabs -->
+  </div>
+  

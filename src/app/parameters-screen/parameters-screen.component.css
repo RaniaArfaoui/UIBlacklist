@@ -1,0 +1,59 @@
+.parameters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .parameter-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .parameter-tabs div {
+    padding: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .parameter-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .parameter-fields div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"], textarea {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .conclusion {
+    width: 100%;
+  }
+  
+  .conclusion textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  
